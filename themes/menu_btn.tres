@@ -1,0 +1,65 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://527ikxinr7es"]
+
+[sub_resource type="SystemFont" id="SystemFont_kpkah"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wmil7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gk504"]
+bg_color = Color(0.48, 0.004799995, 0.004799995, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 20
+expand_margin_left = 3.0
+expand_margin_top = 3.0
+expand_margin_right = 3.0
+expand_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_holh4"]
+bg_color = Color(0.73, 0.007299993, 0.007299993, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 20
+expand_margin_left = 3.0
+expand_margin_top = 3.0
+expand_margin_right = 3.0
+expand_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h2w1t"]
+bg_color = Color(0.89, 0.3293, 0.3293, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 20
+expand_margin_left = 1.0
+expand_margin_top = 1.0
+expand_margin_right = 1.0
+expand_margin_bottom = 1.0
+
+[resource]
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/font_sizes/font_size = 24
+Button/fonts/font = SubResource("SystemFont_kpkah")
+Button/styles/focus = SubResource("StyleBoxEmpty_wmil7")
+Button/styles/hover = SubResource("StyleBoxFlat_gk504")
+Button/styles/normal = SubResource("StyleBoxFlat_holh4")
+Button/styles/pressed = SubResource("StyleBoxFlat_h2w1t")

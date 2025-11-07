@@ -28,6 +28,8 @@ func win_game():
 		if(!GameWon):
 			print("Won the round!")
 			GameWon = true
+			Game.rounds+=1
+			await get_tree().create_timer(0.5).timeout
 			get_tree().call_deferred("change_scene_to_file","res://scenes/win_screen.tscn")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

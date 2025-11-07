@@ -1,0 +1,136 @@
+[gd_scene load_steps=8 format=3 uid="uid://dyfo0mps4eg33"]
+
+[ext_resource type="Script" uid="uid://q7poq08drsn7" path="res://scripts/main_menu.gd" id="1_bqqt6"]
+[ext_resource type="Texture2D" uid="uid://bhudfjk175aqr" path="res://assets/Background.svg" id="1_l6cm7"]
+[ext_resource type="Theme" uid="uid://527ikxinr7es" path="res://themes/menu_btn.tres" id="2_ekxnf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ekxnf"]
+bg_color = Color(0.73, 0.007299993, 0.007299993, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 20
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wu84c"]
+bg_color = Color(0.47843137, 0.003921569, 0.003921569, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 20
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bqqt6"]
+bg_color = Color(0.73, 0.007299993, 0.007299993, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 20
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ln24"]
+bg_color = Color(0.47843137, 0.003921569, 0.003921569, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 20
+expand_margin_left = 25.0
+expand_margin_top = 5.0
+expand_margin_right = 25.0
+expand_margin_bottom = 5.0
+
+[node name="Main Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bqqt6")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_l6cm7")
+
+[node name="Title" type="Label" parent="Background"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 32
+text = "Wave The Sines"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Options" type="VBoxContainer" parent="Background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 50
+
+[node name="PlayBtn" type="Button" parent="Background/Options"]
+layout_mode = 2
+theme = ExtResource("2_ekxnf")
+theme_override_styles/normal = SubResource("StyleBoxFlat_ekxnf")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wu84c")
+text = "Play"
+
+[node name="QuitBtn" type="Button" parent="Background/Options"]
+layout_mode = 2
+theme = ExtResource("2_ekxnf")
+theme_override_styles/normal = SubResource("StyleBoxFlat_bqqt6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_8ln24")
+text = "Quit"
+
+[connection signal="pressed" from="Background/Options/PlayBtn" to="." method="_on_play_btn_pressed"]
+[connection signal="pressed" from="Background/Options/QuitBtn" to="." method="_on_quit_btn_pressed"]

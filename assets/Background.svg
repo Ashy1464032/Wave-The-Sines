@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="640"
+   height="360"
+   viewBox="0 0 169.33333 95.249998"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb, 2024-10-09)"
+   sodipodi:docname="Background.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="2.0308884"
+     inkscape:cx="220.34691"
+     inkscape:cy="214.43817"
+     inkscape:window-width="1920"
+     inkscape:window-height="993"
+     inkscape:window-x="0"
+     inkscape:window-y="50"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid7"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999998"
+       spacingy="0.99999998"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect7"
+       width="169.33333"
+       height="95.25"
+       x="5.0862632e-06"
+       y="0" />
+    <path
+       id="path57"
+       style="fill:#ffffff;stroke:#9efff9;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0,90.000001 169,0 m 0,-5 -169,0 M 0,80 169,80 m 0,-5 -169,0 m 0,-5.000001 169,0 m 0,-4.999998 -169,0 m 0,-5 169,0 M 169,55 0,55 m 0,-5 169,0 m 0,-5.000001 -169,0 m 0,-4.999997 169,0 m 0,-5.000001 -169,0 M 0,30 l 169,1e-6 m 0,-5 L 0,25 M 0,20 H 169 M 0,15 h 169 m 0,-5 H 0 m 0,-5 169,1e-7 M 165,95.000002 V 0 m -5,0 v 95.000002 m -5,0 V 0 m -5,0 v 95.000002 m -5,0 V 0 m -5,0 v 95.000002 m -5,0 V 0 m -5,0 v 95.000002 m -5,0 V 0 m -5,0 v 95.000002 m -5,0 V 0 m -5,0 V 95.000002 M 105,0 v 95.000002 m -5,0 V 0 m -4.999998,0 v 95.000002 m -5.000001,0 V 0 m -5,0 V 95.000002 M 80,0 v 95.000002 m -5,0 V 0 m -5.000001,0 v 95.000002 0 0 m -4.999998,0 V 0 m -5,0 v 95.000002 m -5.000001,0 V 0 m -5,0 v 95.000002 m -5.000001,0 V 0 m -4.999997,0 v 95.000002 0 0 m -5.000001,0 V 0 M 30,0 v 95.000002 m -5,0 V 0 m -5,0 v 95.000002 m -5,0 V 0 m -5,0 v 95.000002 m -5,0 V 0 0"
+       inkscape:label="Grid"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  </g>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Ashy146</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Eternia Studios</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Eternia Studios</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
