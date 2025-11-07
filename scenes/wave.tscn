@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2vgjrdkybqye"]
+
+[ext_resource type="Script" uid="uid://bnoravp61bhqa" path="res://scripts/wave.gd" id="1_y5ysc"]
+
+[node name="Wave" type="Line2D"]
+width = 3.0
+default_color = Color(0, 0, 0, 1)
+script = ExtResource("1_y5ysc")
