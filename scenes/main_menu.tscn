@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://dyfo0mps4eg33"]
 
 [ext_resource type="Script" uid="uid://q7poq08drsn7" path="res://scripts/main_menu.gd" id="1_bqqt6"]
-[ext_resource type="Texture2D" uid="uid://bhudfjk175aqr" path="res://assets/Background.svg" id="1_l6cm7"]
+[ext_resource type="Texture2D" uid="uid://bhudfjk175aqr" path="res://assets/art/Background.svg" id="1_l6cm7"]
 [ext_resource type="Theme" uid="uid://527ikxinr7es" path="res://themes/menu_btn.tres" id="2_ekxnf"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ekxnf"]
@@ -100,6 +100,20 @@ theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_constants/outline_size = 10
 theme_override_font_sizes/font_size = 32
 text = "Wave The Sines"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="HighScore" type="Label" parent="Background"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 31.0
+offset_bottom = 76.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 28
+text = "High Score: 0"
 horizontal_alignment = 1
 vertical_alignment = 2
 

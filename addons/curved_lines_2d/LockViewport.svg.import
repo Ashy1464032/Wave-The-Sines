@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhudfjk175aqr"
-path="res://.godot/imported/Background.svg-246c7bbf5b7ed337db7417514b51ebb6.ctex"
+uid="uid://b8ludy6aqsejg"
+path="res://.godot/imported/LockViewport.svg-3eb11eac4fb123bef92b15fdbe2fa6de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Background.svg"
-dest_files=["res://.godot/imported/Background.svg-246c7bbf5b7ed337db7417514b51ebb6.ctex"]
+source_file="res://addons/curved_lines_2d/LockViewport.svg"
+dest_files=["res://.godot/imported/LockViewport.svg-3eb11eac4fb123bef92b15fdbe2fa6de.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dp34vt35smlre"
-path="res://.godot/imported/Logo.svg-7166f6c506f94d6fad3027bbd10ccf25.ctex"
+uid="uid://bixmptevqidib"
+path="res://.godot/imported/simple_circle.svg-67f7b4b5ff46e14584bdf1e67b90a8fc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Logo.svg"
-dest_files=["res://.godot/imported/Logo.svg-7166f6c506f94d6fad3027bbd10ccf25.ctex"]
+source_file="res://addons/curved_lines_2d/tests/simple_circle.svg"
+dest_files=["res://.godot/imported/simple_circle.svg-67f7b4b5ff46e14584bdf1e67b90a8fc.ctex"]
 
 [params]
 

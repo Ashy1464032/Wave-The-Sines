@@ -28,6 +28,15 @@ window/size/mode=3
 window/size/borderless=true
 window/stretch/mode="viewport"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/curved_lines_2d/plugin.cfg")
+
+[gui]
+
+fonts/dynamic_fonts/use_oversampling=false
+theme/default_font_antialiasing=0
+
 [input]
 
 ampUp={
@@ -53,5 +62,10 @@ FreqDown={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 anti_aliasing/quality/msaa_2d=1
+anti_aliasing/quality/msaa_3d=1
+textures/decals/filter=0
+textures/light_projectors/filter=0
 anti_aliasing/quality/screen_space_aa=1
+anti_aliasing/quality/use_taa=true
