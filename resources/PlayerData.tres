@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="PlayerData" load_steps=2 format=3 uid="uid://dxta4bpx6bprv"]
+
+[ext_resource type="Script" uid="uid://lhgpvbt6d7n5" path="res://resources/player_data.gd" id="1_a77g8"]
+
+[resource]
+script = ExtResource("1_a77g8")
+player_wave_colour = Color(1, 0, 0, 1)
+metadata/_custom_type_script = "uid://lhgpvbt6d7n5"

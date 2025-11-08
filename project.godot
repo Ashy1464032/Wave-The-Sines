@@ -13,8 +13,11 @@ config_version=5
 config/name="Wave The Sines"
 config/version="1.0.0"
 run/main_scene="uid://dyfo0mps4eg33"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Save"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="uid://dp34vt35smlre"
+boot_splash/minimum_display_time=1000
 
 [autoload]
 
@@ -63,6 +66,7 @@ FreqDown={
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+textures/vram_compression/import_etc2_astc=true
 anti_aliasing/quality/msaa_2d=1
 anti_aliasing/quality/msaa_3d=1
 textures/decals/filter=0

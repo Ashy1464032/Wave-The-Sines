@@ -146,5 +146,18 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_bqqt6")
 theme_override_styles/hover = SubResource("StyleBoxFlat_8ln24")
 text = "Quit"
 
+[node name="Version" type="Label" parent="Background"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.67, 0, 0, 1)
+
 [connection signal="pressed" from="Background/Options/PlayBtn" to="." method="_on_play_btn_pressed"]
 [connection signal="pressed" from="Background/Options/QuitBtn" to="." method="_on_quit_btn_pressed"]

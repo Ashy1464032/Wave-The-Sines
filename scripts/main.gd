@@ -9,7 +9,7 @@ var GameWon = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	Game.load_game()
+	pass
 
 func check_amp() -> bool:
 	if player_wave.amplitude == wave.amplitude:

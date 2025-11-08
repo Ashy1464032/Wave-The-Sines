@@ -2,12 +2,12 @@
 .godot/
 <<<<<<< HEAD
 .nomedia
-
+data/
 # Godot-specific ignores
 .import/
 export.cfg
 export_credentials.cfg
-
+bin/
 # Imported translations (automatically generated from CSV files)
 *.translation
 
