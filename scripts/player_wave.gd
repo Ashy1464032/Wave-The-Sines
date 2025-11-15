@@ -2,7 +2,7 @@ class_name player extends Line2D
 
 var amplitude: int = 25
 var frequency: float = 0.2
-var varPoints = 750
+var varPoints = 1000
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -28,10 +28,11 @@ func _process(_delta: float) -> void:
 func _draw() -> void:
 	var step = 2 * PI / varPoints
 	var prev_point = Vector2(0, amplitude * sin(0))
+	var hsf = get_viewport_rect().size.x / TAU
 	
 	for i in range(1, varPoints):
-		var x = ((i * step) * 150) - 100
-		var y = (amplitude * sin(x * frequency)) + 200
+		var x = ((i * step) * (hsf + 50)) - 50
+		var y = (amplitude * sin(x * frequency)) + 300
 		var current_point = Vector2(x, y)
 		draw_line(prev_point, current_point, default_color, width)
 		prev_point = current_point  

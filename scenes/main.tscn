@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://dux0orkppw1w6"]
+[gd_scene load_steps=6 format=3 uid="uid://dux0orkppw1w6"]
 
 [ext_resource type="Script" uid="uid://dwircmew77vxb" path="res://scripts/main.gd" id="1_0wfyh"]
 [ext_resource type="PackedScene" uid="uid://b2vgjrdkybqye" path="res://scenes/wave.tscn" id="1_o5qli"]
 [ext_resource type="Script" uid="uid://sal627vbcs8l" path="res://scripts/player_wave.gd" id="3_sugp2"]
 [ext_resource type="Texture2D" uid="uid://bhudfjk175aqr" path="res://assets/art/Background.svg" id="4_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://dro3wu55odrws" path="res://assets/art/guide-export.png" id="5_tbgi4"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_0wfyh")
@@ -11,7 +12,7 @@ script = ExtResource("1_0wfyh")
 [node name="Wave" parent="." instance=ExtResource("1_o5qli")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(320, 180)
+position = Vector2(639, 361)
 
 [node name="PlayerWave" parent="." instance=ExtResource("1_o5qli")]
 default_color = Color(1, 0.07999998, 0.07999998, 1)
@@ -23,6 +24,8 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = -1.0
+offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -33,23 +36,21 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = -3.0
 offset_top = -2.0
-offset_right = 644.0
-offset_bottom = 362.0
+offset_right = 1280.3351
+offset_bottom = 720.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("4_jyhfs")
 
-[node name="Hint" type="Label" parent="Control"]
+[node name="Guide" type="TextureRect" parent="Control"]
 layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_top = 284.0
-offset_right = 299.0
-offset_bottom = 359.0
+offset_top = 542.0
+offset_right = 178.0
+offset_bottom = 720.0
 grow_vertical = 0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-text = "Use the arrow keys to change the
-Amplitude &
-Frequency"
-uppercase = true
+texture = ExtResource("5_tbgi4")
+expand_mode = 4
+stretch_mode = 4
