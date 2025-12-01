@@ -1,0 +1,75 @@
+[gd_scene load_steps=5 format=3 uid="uid://bbfgp8y23gdwg"]
+
+[ext_resource type="Script" uid="uid://do688nsh75rkb" path="res://scripts/lose_screen.gd" id="1_73mov"]
+[ext_resource type="Texture2D" uid="uid://bhudfjk175aqr" path="res://assets/art/Background.svg" id="2_lytqm"]
+[ext_resource type="Theme" uid="uid://527ikxinr7es" path="res://themes/menu_btn.tres" id="3_v2sw8"]
+
+[sub_resource type="SystemFont" id="SystemFont_s508f"]
+
+[node name="Lose Screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_73mov")
+
+[node name="Main" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_lytqm")
+
+[node name="DefeatText" type="Label" parent="Main"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -320.0
+offset_right = 320.0
+offset_bottom = 67.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 0.24000001, 0.24000001, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.6627451)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 4
+theme_override_constants/outline_size = 10
+theme_override_constants/shadow_outline_size = 4
+theme_override_fonts/font = SubResource("SystemFont_s508f")
+theme_override_font_sizes/font_size = 48
+text = "You Lose!"
+horizontal_alignment = 1
+uppercase = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Main"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 100
+
+[node name="Menu" type="Button" parent="Main/HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_v2sw8")
+text = "Back to Main Menu"
+
+[node name="Next" type="Button" parent="Main/HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_v2sw8")
+text = "Try Again"
+
+[connection signal="pressed" from="Main/HBoxContainer/Menu" to="." method="_on_menu_btn_pressed"]
+[connection signal="pressed" from="Main/HBoxContainer/Next" to="." method="_on_next_btn_pressed"]
